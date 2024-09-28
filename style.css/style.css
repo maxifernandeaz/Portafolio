@@ -1,0 +1,418 @@
+/* reset  */
+* {
+    box-sizing: content-box;
+    line-height: normal;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: rgba(49, 47, 47, 0.993);
+    font-family: "Raleway", sans-serif;
+    background-color: #F5F5F5;
+}
+
+ul,ol {
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    color: rgba(49, 47, 47, 0.993);
+}
+
+
+/* encabezado */
+
+.encabezado__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-right: 5px;
+    
+}
+
+
+
+.cabezera__item {
+    display: flex;
+    gap: 15px;
+    font-weight: bold;
+    gap: 32px;
+}
+.cabezera_email {
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+.cabezera__item a {
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+/* main */
+.cuerpo__persentacion{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    
+    
+}
+.cuerpo__persentacion > p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+}
+            
+.item__presentacion {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.item__presentacion p {
+    font-size: 22px;
+}
+
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+    line-height: 61px;
+    margin-top: 90px;
+}
+
+
+.img__perfil {
+    margin-top: 50px;
+    max-width: 100%;
+}
+
+/* sobre mi */
+.sobre__mi {
+    margin: 10px;
+    
+}
+.sobre__mi >h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+
+}
+.sobre__mi > p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.Container__Skill{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.container__redes {
+    display: flex;
+    
+    gap: 8px;
+}
+
+
+/* formacion academica */
+.Container__Skill {
+    align-items: center;
+}
+.sckill > h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+
+}
+.sckill > p {
+    font-weight: 400;
+    font-size: 16;
+    line-height: 18px;
+}
+.container__formacion {
+    background-color: #EAF2FD;
+}
+.formacion__academica {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    
+    
+    
+
+}
+
+.Formacion_academica, h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+/* experiencia */
+.experiencia__profesional {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container__buton {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+
+    
+}
+.button__repositorio {
+    font-weight: 400;
+    font-size: 16px;
+    width: 116px;
+    height: 51px;
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 5x ;
+    
+    cursor: pointer;
+    color: #007BFF;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.button__repositorio:active {
+    transform: scale(0.94);
+    background-color: #b8c6d8; 
+} 
+
+.button__Demo {
+    font-weight: 400;
+    font-size: 16px;
+    width: 116px;
+    height: 51px;
+    padding: 8px;
+    background-color: #888e96;
+    border: 1px solid;
+    color: #d1c5c5;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.button__Demo:active {
+    transform: scale(0.94);
+    background-color: #b8c6d8; 
+}
+
+
+
+/* pie de pagina */
+.container__footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+    margin: 10px;
+}
+.img__formulario {
+    max-width: 100%;
+    
+}
+.container__footer:nth-child(1)  {
+    justify-content: start;
+
+    
+}
+.img__formulario {
+    max-width: 100%;
+}
+
+
+.contacto_mensaje {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.formulrio, label, input, textarea{
+    max-width: 100%;
+    
+
+}
+
+form.formulario {
+    width: 100%;
+    max-width: 100%; /* Asegura que el formulario no exceda el 100% del ancho */
+    padding: 20px; /* Espaciado interno */
+    box-sizing: content-box; 
+    margin: 0 auto; 
+}
+
+form.formulario h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 2.1em;
+}
+form.formulario p {
+    text-align: center;
+    font-weight: 500;
+    line-height: 1em;
+
+
+}
+
+form.formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form.formulario input[type="text"],
+form.formulario textarea {
+    width: 100%; /* Asegura que los campos ocupen el 100% del ancho */
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box; /* Incluye el padding dentro del ancho */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form.formulario textarea {
+    height: 150px; /* Altura del textarea */
+}
+
+button.button__mensaje {
+    width: 113px;
+    height: 16px;
+    padding: 10px;
+    background-color: #007BFF; /* Color del botón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.button__mensaje:hover {
+    background-color: #0056b3; /* Color del botón al pasar el cursor */
+}
+.rodapie {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 480px) {
+    .cabezera__item {
+        display: none; 
+    } 
+    .img__formulario {
+        display: none;
+    }
+    .cabezera_email {
+        font-weight: normal;
+        font-size: 14px;
+    }
+    .item__presentacion {
+        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
+
+
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .sobre__mi {
+        background-color: #EAF2FD;
+    }
+    .sobre__mi >h2{
+        font-weight: 700;
+        font-size: 2px;
+        line-height: 25px;
+    
+    }
+    .sobre__mi > p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .Container__Skill {
+        flex-wrap: wrap;
+        
+    }
+    .formacion__academica {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .formacion__academica, img {
+        max-width: 100%;
+        fill: 224px;
+        
+        
+    }
+    .img__perfil {
+        margin-left: 50px;
+    }
+    .experiencia__profesional {
+        flex-direction: column;
+    }
+    .container__footer {
+        background-color: #EAF2FD;
+    }
+    
+}
+@media (max-width: 770px) {
+    .cabezera__item {
+        display: none; 
+    } 
+    .item__presentacion h1{
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+    .item__presentacion p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+    .sobre__mi h2 {
+        font-weight: 700;
+        font-size:  22px;
+        line-height: 25px;
+    }.sckill h2 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .Container__Skill {
+        display: flex;
+        gap: 16px;
+    }
+    .Container__Skill > p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .formacion__academica  {
+
+        flex-wrap: wrap;
+    }
+    .experiencia__profesional {
+        justify-content: center;
+    }
+    .container__footer > img {
+        display: none;
+    }
+    .container__footer {
+        background-color: #EAF2FD;
+    }
+    
+}
+
+/* resta modificar table header */
