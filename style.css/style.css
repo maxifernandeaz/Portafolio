@@ -366,7 +366,7 @@ button.button__mensaje:hover {
     }
     
 }
-@media (max-width: 770px) {
+@media (max-width: 790px) {
     .cabezera__item {
         display: none; 
     } 
